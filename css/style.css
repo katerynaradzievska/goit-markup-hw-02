@@ -16,7 +16,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.17
+    line-height: 1.17;
     letter-spacing: 0.03em;
 
 }
@@ -48,7 +48,7 @@ ul {
 .nav-link:active{
     color: #404bbf;
 }
-.nav-adress {
+.nav-address {
     color: #434455;
     text-decoration: none;
     font-size: 16px;
@@ -84,7 +84,7 @@ ul {
     color: #fff;
     font-weight: 500;
     text-align: center;
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -99,29 +99,39 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 h3 {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 p {
     color: #434455;
-    font-size: 16px;
+    font-size: 16px;#
     font-weight: 400;
-    line-height: 1.11;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
+}
+.logo-footer {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo-style-footer {
     color: #F4F4FD; 
@@ -133,6 +143,13 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
+.footer-text{
+    line-height: 1.5;
+    color: #F4F4FD; 
+}
 .team-section {
     background-color: #F4F4FD;
+}
+.list-team {
+    background-color: #ffffff;
 }
