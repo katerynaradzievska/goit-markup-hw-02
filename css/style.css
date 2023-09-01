@@ -45,8 +45,12 @@ ul {
 .nav-link:hover {
     color: #404bbf;
 }
-.nav-link:active{
+.nav-link:focus{
     color: #404bbf;
+}
+address {
+    font-style: normal;
+
 }
 .nav-address {
     color: #434455;
@@ -57,10 +61,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
 }
-.nav-adress:hover {
+.nav-address:hover {
     color: #404bbf;
 }
-.nav-adress:focus {
+.nav-address:focus {
     color: #404bbf; 
 }
 .main-title {
@@ -75,13 +79,11 @@ ul {
 }
 .main-page {
     background-color: #2E2F42;
+    color: #ffffff; 
+    font-family: "Roboto", sans-serif;
 }
-.button {
-    border-radius: 4px;
+.button-style {
     background: #4D5AE5;
-    font-family: "Roboto", sans-serif
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #fff;
     font-weight: 500;
     text-align: center;
     line-height: 1.5;
@@ -99,7 +101,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -107,18 +109,19 @@ h3 {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 p {
     color: #434455;
-    font-size: 16px;#
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-footer {
+.footer-style {
     background-color: #2E2F42;
     font-size: 16px;
     font-weight: 400;
