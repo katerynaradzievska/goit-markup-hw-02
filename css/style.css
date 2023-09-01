@@ -91,10 +91,10 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:hover {
+.button-style:hover {
     background-color: #404BBF;
 }
-.button:focus {
+.button-style:focus {
     background-color: #404BBF;
 }
 .title-two {
@@ -149,7 +149,8 @@ ul {
 }
 .footer-text{
     line-height: 1.5;
-    color: #F4F4FD; 
+    color: #F4F4FD;
+    letter-spacing: 0.02em; 
 }
 .team-section {
     background-color: #F4F4FD;
